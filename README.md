@@ -49,9 +49,14 @@ Running the python file will create a semi interactive choropleth as well as sav
 python shopifySales.py
 ```
 ## TODO
-- Calculate translation on Map data and sales data localized in Alaska or Hawaii to move both the rendered states and associated sales points below the main rendering to represent all data within the frame
+- Calculate translation on Map data and sales data localized in Alaska or Hawaii to move both the rendered states and associated sales points below the main rendering to represent all data within the frame 
+
+and or
+
+- Create Shapefile or geojson file that includes Canada in mapping (Seems difficult to combine shapefiles without consistent file formatting from a single resource)
 - Modify Density calculations and labels to display based on dollar values instead of # of orders
 - Add mouse over info per state (eg: Sales in $ value)
+
 
 
 ![Alt text](/data/shopifySales.png?raw=true)
