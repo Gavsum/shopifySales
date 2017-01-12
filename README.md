@@ -1,5 +1,5 @@
-# Shopify Cloropleth Map
-Simple cloropleth map rendering using Matplotlib and Basemap.
+# Shopify Choropleth Map
+Simple choropleth map rendering using Matplotlib and Basemap.
 ## Installation
 I will assume you already have pip & python 2.7 installed
 - make a project directory wherever you would like
@@ -44,7 +44,7 @@ sudo rm -R basemap-1.0.7/
 ```
 Choropleth program should now be ready to go!
 ## Usage
-Running the python file will create a semi interactive cloropleth as well as save a png of the map to that data/ dir
+Running the python file will create a semi interactive choropleth as well as save a png of the map to that data/ dir
 ```
 python shopifySales.py
 ```
